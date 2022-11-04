@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    background-color: rgb(242, 247, 255);
+    display: block;
+    margin: 8px;
+}
+
+header {
+    background: rgb(56, 92, 203);
+    color: white;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    width: 80%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+header nav {
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    width: 20%;
+}
+
+nav {
+
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    width: 40%;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../Assets/stock-photo-horizontal-image-ukrainian-flag-flagpole.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section {
+    display: block;
+
+}
+
+.subtitle {
+    float: right;
+    width: auto;
+    background: transparent;
+
+}
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2%;
+
+}
+
+.section {
+    display: block;
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+
+
+.h2 {
+
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 288px;
+    width: 288px;
+
+}
+
+
+.card img {
+    max-width: 100%;
+    min-width: 150px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: bottom;
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+td nav {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav {
+    display: block;
+}
+
+td nav ul {
+    list-style-type: none;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    padding-inline-start: 40px;
+
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    color: darkblue;
+    text-align: center;
+
+}
+
+#about-me {
+    display: flex;
+
+}
+
+#about-me h2 {
+    width: 30%;
+}
+
+#about-me p {
+    width: 70%;
+    padding-left: 5%;
+}
+
+#projects {
+    display: flex;
+
+}
+
+#projects h2 {
+    width: 30%;
+
+}
+
+#projects section {
+    width: 70%;
+    padding-left: 5%;
+}
+
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pictures .card {
+    width: 45%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+#contact-me {
+    display-flex;
+}
+
+#contact-me h2 {
+    width: 30%;
+}
